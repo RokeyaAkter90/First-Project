@@ -1,0 +1,70 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify \tCart",
+        "description": "",
+        "id": "this-feature-is-to-validate-carts-pages-creations;verify--cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 624212800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch \"\u003cURL\u003e\" for demoblaze",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "cartbon.launch_for_demoblaze(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2449941200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Carts Links",
+            "match": {
+              "location": "cartbon.click_on_Carts_Links()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify users can visit carts pages",
+            "match": {
+              "location": "cartbon.verify_users_can_visit_carts_pages()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to validate Carts pages creations",
+    "description": "",
+    "id": "this-feature-is-to-validate-carts-pages-creations",
+    "keyword": "Feature",
+    "uri": "cartbon.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@cartL"
+      }
+    ]
+  }
+]
